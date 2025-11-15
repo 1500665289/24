@@ -1,0 +1,374 @@
+﻿<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="Item_ElementDan_Jin" Parent="DanBase">
+		<ThingName>金极丹</ThingName>
+		<TexPath>res\Sprs\object\object_jianwan01</TexPath>
+		<TexScale>1.2</TexScale>
+		<Color>FFFF00</Color>
+		<Desc>以秘法将五行神药与天道本源九九归一合炼而成的至宝，蕴含极强的五行气息。服用可以增加金属性亲和度。只有第一次服用有效。</Desc>
+		<Rate>12</Rate>
+		<Beauty>25</Beauty>
+		<ElementKind>Jin</ElementKind>
+		<Frags>		
+			<li Frag="SeeWest" />
+		</Frags>	
+		<IllustratedHandLabel>Dan</IllustratedHandLabel>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="3000" FriendPoint="2"/>
+					<SalePrice Value="1500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1500" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="1500" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Knock</li>
+				<li>GreatThing_Rot</li>
+				<li>GreatThing_Fly</li>
+				<li>Smooth2</li>
+				<li>Hard2</li>
+				<li>HighDensity2</li>
+				<li>Heavy2</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>ElementDan_Jin</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<DevourDatas>
+				<li Name="Item_BodyPractice_EXJin" Count="1" Rate="1"/>
+			</DevourDatas> 	
+			<BeMade>
+				<WorkToMake>810</WorkToMake>
+				<CostItems>
+					<Item name = "Item_JinEssence" count = "9"/>
+					<Item name = "Item_BenYuan_Jin" count = "9"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>81</Value>         
+			<Radius>5</Radius>
+			<Failing>1</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+		<Light>
+			<Value>10</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>2</Radius>
+			<Color>FFFF00</Color>
+		</Light>
+		<ProduceMode>
+			<InitialUnlock>0</InitialUnlock>
+			<DanFormula>FORMUL_ElementDan_Jin</DanFormula>
+		</ProduceMode>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_ElementDan_Mu" Parent="DanBase">
+		<ThingName>木极丹</ThingName>
+		<TexPath>res\Sprs\object\object_jianwan01</TexPath>
+		<TexScale>1.2</TexScale>
+		<Color>00FF00</Color>
+		<Desc>以秘法将五行神药与天道本源九九归一合炼而成的至宝，蕴含极强的五行气息。服用可以增加木属性亲和度。只有第一次服用有效。</Desc>
+		<Rate>12</Rate>
+		<Beauty>25</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Frags>		
+			<li Frag="SeeEast" />
+		</Frags>	
+		<IllustratedHandLabel>Dan</IllustratedHandLabel>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="3000" FriendPoint="2"/>
+					<SalePrice Value="1500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1500" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="1500" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Knock</li>
+				<li>GreatThing_Rot</li>
+				<li>GreatThing_Fly</li>
+				<li>Smooth2</li>
+				<li>Hard2</li>
+				<li>HighDensity2</li>
+				<li>Heavy2</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>ElementDan_Mu</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<DevourDatas>
+				<li Name="Item_BodyPractice_EXMu" Count="1" Rate="1"/>
+			</DevourDatas> 	
+			<BeMade>
+				<WorkToMake>810</WorkToMake>
+				<CostItems>
+					<Item name = "Item_MuEssence" count = "9"/>
+					<Item name = "Item_BenYuan_Mu" count = "9"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>81</Value>         
+			<Radius>5</Radius>
+			<Failing>1</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+		<Light>
+			<Value>10</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>2</Radius>
+			<Color>00FF00</Color>
+		</Light>
+		<ProduceMode>
+			<InitialUnlock>0</InitialUnlock>
+			<DanFormula>FORMUL_ElementDan_Mu</DanFormula>
+		</ProduceMode>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_ElementDan_Shui" Parent="DanBase">
+		<ThingName>水极丹</ThingName>
+		<TexPath>res\Sprs\object\object_jianwan01</TexPath>
+		<TexScale>1.2</TexScale>
+		<Color>00CCFF</Color>
+		<Desc>以秘法将五行神药与天道本源九九归一合炼而成的至宝，蕴含极强的五行气息。服用可以增加水属性亲和度。只有第一次服用有效。</Desc>
+		<Rate>12</Rate>
+		<Beauty>25</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Frags>		
+			<li Frag="SeeNorth" />
+		</Frags>	
+		<IllustratedHandLabel>Dan</IllustratedHandLabel>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="3000" FriendPoint="2"/>
+					<SalePrice Value="1500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1500" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="1500" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Knock</li>
+				<li>GreatThing_Rot</li>
+				<li>GreatThing_Fly</li>
+				<li>Smooth2</li>
+				<li>Hard2</li>
+				<li>HighDensity2</li>
+				<li>Heavy2</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>ElementDan_Shui</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<DevourDatas>
+				<li Name="Item_BodyPractice_EXShui" Count="1" Rate="1"/>
+			</DevourDatas> 	
+			<BeMade>
+				<WorkToMake>810</WorkToMake>
+				<CostItems>
+					<Item name = "Item_ShuiEssence" count = "9"/>
+					<Item name = "Item_BenYuan_Shui" count = "9"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>81</Value>         
+			<Radius>5</Radius>
+			<Failing>1</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+		<Light>
+			<Value>10</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>2</Radius>
+			<Color>00CCFF</Color>
+		</Light>
+		<ProduceMode>
+			<InitialUnlock>0</InitialUnlock>
+			<DanFormula>FORMUL_ElementDan_Shui</DanFormula>
+		</ProduceMode>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_ElementDan_Huo" Parent="DanBase">
+		<ThingName>火极丹</ThingName>
+		<TexPath>res\Sprs\object\object_jianwan01</TexPath>
+		<TexScale>1.2</TexScale>
+		<Color>FF0000</Color>
+		<Desc>以秘法将五行神药与天道本源九九归一合炼而成的至宝，蕴含极强的五行气息。服用可以增加火属性亲和度。只有第一次服用有效。</Desc>
+		<Rate>12</Rate>
+		<Beauty>25</Beauty>
+		<ElementKind>Huo</ElementKind>
+		<Frags>		
+			<li Frag="SeeSouth" />
+		</Frags>	
+		<IllustratedHandLabel>Dan</IllustratedHandLabel>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="3000" FriendPoint="2"/>
+					<SalePrice Value="1500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1500" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="1500" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Knock</li>
+				<li>GreatThing_Rot</li>
+				<li>GreatThing_Fly</li>
+				<li>Smooth2</li>
+				<li>Hard2</li>
+				<li>HighDensity2</li>
+				<li>Heavy2</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>ElementDan_Huo</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<DevourDatas>
+				<li Name="Item_BodyPractice_EXHuo" Count="1" Rate="1"/>
+			</DevourDatas> 	
+			<BeMade>
+				<WorkToMake>810</WorkToMake>
+				<CostItems>
+					<Item name = "Item_HuoEssence" count = "9"/>
+					<Item name = "Item_BenYuan_Huo" count = "9"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>Huo</Kind>
+			<Value>81</Value>         
+			<Radius>5</Radius>
+			<Failing>1</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+		<Light>
+			<Value>10</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>2</Radius>
+			<Color>FF0000</Color>
+		</Light>
+		<ProduceMode>
+			<InitialUnlock>0</InitialUnlock>
+			<DanFormula>FORMUL_ElementDan_Huo</DanFormula>
+		</ProduceMode>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_ElementDan_Tu" Parent="DanBase">
+		<ThingName>土极丹</ThingName>
+		<TexPath>res\Sprs\object\object_jianwan01</TexPath>
+		<TexScale>1.2</TexScale>
+		<Color>FF9900</Color>
+		<Desc>以秘法将五行神药与天道本源九九归一合炼而成的至宝，蕴含极强的五行气息。服用可以增加土属性亲和度。只有第一次服用有效。</Desc>
+		<Rate>12</Rate>
+		<Beauty>25</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Frags>		
+			<li Frag="SeeDirt" />
+		</Frags>	
+		<IllustratedHandLabel>Dan</IllustratedHandLabel>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="3000" FriendPoint="2"/>
+					<SalePrice Value="1500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1500" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="1500" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Knock</li>
+				<li>GreatThing_Rot</li>
+				<li>GreatThing_Fly</li>
+				<li>Smooth2</li>
+				<li>Hard2</li>
+				<li>HighDensity2</li>
+				<li>Heavy2</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>ElementDan_Tu</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<DevourDatas>
+				<li Name="Item_BodyPractice_EXTu" Count="1" Rate="1"/>
+			</DevourDatas> 	
+			<BeMade>
+				<WorkToMake>810</WorkToMake>
+				<CostItems>
+					<Item name = "Item_TuEssence" count = "9"/>
+					<Item name = "Item_BenYuan_Tu" count = "9"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>81</Value>         
+			<Radius>5</Radius>
+			<Failing>1</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+		<Light>
+			<Value>10</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>2</Radius>
+			<Color>FF9900</Color>
+		</Light>
+		<ProduceMode>
+			<InitialUnlock>0</InitialUnlock>
+			<DanFormula>FORMUL_ElementDan_Tu</DanFormula>
+		</ProduceMode>
+	</ThingDef>
+
+</List></ThingDefs>

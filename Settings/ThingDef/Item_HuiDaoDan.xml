@@ -1,0 +1,54 @@
+﻿<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="Item_HuiDaoDan" Parent="DanBase">
+		<ThingName>毁道丹</ThingName>
+		<TexPath>res\Sprs\object\object_jianwan01</TexPath>
+		<TexScale>1</TexScale>
+		<Color>330066</Color>
+		<Desc>自毁道基。</Desc>
+		<Rate>12</Rate>
+		<Beauty>25</Beauty>
+		<IllustratedHandLabel>Dan</IllustratedHandLabel>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>PhysicalLables_LunHui_DongFangHeShenZhen</li>
+				<li>Shit</li>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Knock</li>
+				<li>GreatThing_Rot</li>
+				<li>GreatThing_Fly</li>
+				<li>Smooth2</li>
+				<li>Hard2</li>
+				<li>HighDensity2</li>
+				<li>Heavy2</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>SysPracticeDie</Modifier>
+			</Elixir>
+			<Equip>
+				<ToolModifier>SysPracticeDie</ToolModifier>
+			</Equip> 
+			<DevourDatas>
+				<li Name="Item_BodyPractice_WuHui" Count="1" Rate="1"/>
+			</DevourDatas> 
+			<BeMade>
+				<WorkToMake>400</WorkToMake>
+				<CostItems>
+					<Item name="Item_Shit" count="10" />
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Light>
+			<Value>10</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>2</Radius>
+			<Color>330066</Color>
+		</Light>
+		<ProduceMode>
+			<InitialUnlock>0</InitialUnlock>
+			<DanFormula>FORMUL_HuiDaoDan</DanFormula>
+		</ProduceMode>
+	</ThingDef>
+
+</List></ThingDefs>

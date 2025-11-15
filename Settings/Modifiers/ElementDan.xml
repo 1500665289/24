@@ -1,0 +1,47 @@
+<ModifierDefs><List>
+	<Modifier Name="ElementDan_Jin" Type="Normal">
+		<DisplayName>ElementDan_Jin</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GongMatch_JinAddV" AddV="0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="ElementDan_Mu" Type="Normal">
+		<DisplayName>ElementDan_Mu</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GongMatch_MuAddV" AddV="0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="ElementDan_Shui" Type="Normal">
+		<DisplayName>ElementDan_Shui</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GongMatch_ShuiAddV" AddV="0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="ElementDan_Huo" Type="Normal">
+		<DisplayName>ElementDan_Huo</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GongMatch_HuoAddV" AddV="0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="ElementDan_Tu" Type="Normal">
+		<DisplayName>ElementDan_Tu</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GongMatch_TuAddV" AddV="0.5"/>
+		</Properties>
+	</Modifier>
+</List></ModifierDefs>

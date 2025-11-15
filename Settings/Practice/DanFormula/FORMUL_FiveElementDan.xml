@@ -1,0 +1,39 @@
+﻿<DanFormulas>
+	<List>
+		<Dan Name="FORMUL_ElementDan_Jin">
+			<SuccessRate>-1</SuccessRate>
+			<ItemName>Item_ElementDan_Jin</ItemName>
+			<Level>18</Level>
+			<Count>1</Count>
+			<Normal>1</Normal>
+		</Dan>
+		<Dan Name="FORMUL_ElementDan_Mu">
+			<SuccessRate>-1</SuccessRate>
+			<ItemName>Item_ElementDan_Mu</ItemName>
+			<Level>18</Level>
+			<Count>1</Count>
+			<Normal>1</Normal>
+		</Dan>
+		<Dan Name="FORMUL_ElementDan_Shui">
+			<SuccessRate>-1</SuccessRate>
+			<ItemName>Item_ElementDan_Shui</ItemName>
+			<Level>18</Level>
+			<Count>1</Count>
+			<Normal>1</Normal>
+		</Dan>
+		<Dan Name="FORMUL_ElementDan_Huo">
+			<SuccessRate>-1</SuccessRate>
+			<ItemName>Item_ElementDan_Huo</ItemName>
+			<Level>18</Level>
+			<Count>1</Count>
+			<Normal>1</Normal>
+		</Dan>
+		<Dan Name="FORMUL_ElementDan_Tu">
+			<SuccessRate>-1</SuccessRate>
+			<ItemName>Item_ElementDan_Tu</ItemName>
+			<Level>18</Level>
+			<Count>1</Count>
+			<Normal>1</Normal>
+		</Dan>
+	</List>
+</DanFormulas>

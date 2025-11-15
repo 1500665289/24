@@ -1,0 +1,10 @@
+<MainList><List>
+	
+		<Data Kind="Builds" Type="奇观" Unlock="1"  CMDType="Build" Name="Fake_Geothermy"/>
+		<Data Kind="Builds" Type="奇观" Unlock="1"  CMDType="Build" Name="Fake_ColdHole"/>
+		<Data Kind="Builds" Type="奇观" Unlock="1"  CMDType="Build" Name="Fake_OuterWorld"/>
+		<Data Kind="Builds" Type="奇观" Unlock="1"  CMDType="Build" Name="Fake_YinYang"/>
+		<Data Kind="Builds" Type="奇观" Unlock="1"  CMDType="Build" Name="Fake_DiMu"/>
+		<Data Kind="Builds" Type="奇观" Unlock="1"  CMDType="Build" Name="Fake_LingShu"/>
+	
+</List></MainList>

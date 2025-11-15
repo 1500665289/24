@@ -1,0 +1,11 @@
+<DanFormulas><List>
+	
+	<!--三花黄精-->
+	<Dan Name="Dan_SanHuaHuangJing">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SanHuaHuangJing</ItemName>
+		<Level>15</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+</List></DanFormulas>
