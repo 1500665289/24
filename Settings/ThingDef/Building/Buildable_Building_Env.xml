@@ -1,4 +1,60 @@
 <ThingDefs><List>
+
+	<ThingDef Type="Building" Name="TJHYT" Parent="Building_WanDaoZunFaZuo">
+	<ThingName>太极混元台</ThingName>	
+	<Desc>远古人族至宝，可以让纯血人族觉醒先天灵根，在十万年前那场大战中失踪。</Desc>
+	<TexPath>res\Sprs\building_zhengfatianxia\building_wandaozunfazuo01</TexPath>
+	<ElementKind>Chaos</ElementKind>
+	<Tags>
+		<Tag Name="_WONDER" Level="1"/>
+	</Tags>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>
+	<ColliderKind>NoPass</ColliderKind>
+	<Building>
+		
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperFengshui</HelperClass>
+		<BeMade>
+			<WorkToMake>6000</WorkToMake>
+			<Quality>1</Quality>
+			<CostItems>
+				<Item name = "Item_TJHYT" count = "1" noscale = "1"/>
+				
+			</CostItems>
+			<CostStuffCount>8</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>2.86</y>
+			<z>0.5</z>
+		</SnowRenderData>
+		<Light>
+			<Value>125</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>3</FailRadius>
+			<Radius>12</Radius>
+			<Color>FDCB64FF</Color>
+		</Light>
+	</Building>
+
+	<Harvest>
+		<DropItems>
+			<li>
+				<ThingDef>Item_TJHYT</ThingDef>
+				<Count>1</Count>
+			</li>
+		</DropItems>  
+	</Harvest>
+	<StoryBnts>
+		<li Name="觉醒灵根" Desc="使用太极混元台觉醒灵根" Cost="1"  Appoint="3" Story="LGDX_GTLG"/>
+		
+	</StoryBnts>
+	</ThingDef>
+
 	<ThingDef Type="Building" Name="Fake_Geothermy" Parent="Build_VirtualDoor">
 		<ThingName>地肺之口·改</ThingName>	
 		<Desc>曾经是一道直通地肺的裂隙，有炽热的气息散发出来。现在被改造成了炼丹炉，但还是有点热。</Desc>
